@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title><?php echo $titulo; ?></title>
+	<style> 
+	body 
+	{
+			background-color: #121212;
+	}
+	
+	table 
+	{
+		width: 50%;
+		background-color: #282828;
+		color: white;
+		border: 1px solid #21d75a;
+		border-collapse: collapse;
+		margin: auto;
+	}
+	th  
+	{
+		color:white;
+		border: 1px solid #21d75a;
+		border-collapse: collapse;
+	}
+	td 
+	{
+		border: 1px solid #21d75a;
+		border-collapse: collapse;
+	}
+	li 
+	{
+		color:white;
+	}
+	label
+	{
+		color:white;
+	}
+	
+	</style>
+</head>
+<body>
+
+<!-- FORM PARA INSERIR LOJA -->
+<form action ="inserir_playlist.html" method="POST">
+	<label>Nome: </label><input type="text" name="nome"><br>
+	<label>Descricao: </label><textarea name="descricao"></textarea><br>
+	<button type="submit">Inserir</button>
+</form>
+</body>
+</html>

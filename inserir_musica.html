@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Inserir Musica</title>
+	<style> 
+	body 
+	{
+			background-color: #121212;
+	}
+	
+	table 
+	{
+		width: 50%;
+		background-color: #282828;
+		color: white;
+		border: 1px solid #21d75a;
+		border-collapse: collapse;
+		margin: auto;
+	}
+	th  
+	{
+		color:white;
+		border: 1px solid #21d75a;
+		border-collapse: collapse;
+	}
+	td 
+	{
+		border: 1px solid #21d75a;
+		border-collapse: collapse;
+	}
+	li 
+	{
+		color:white;
+	}
+	label
+	{
+		color:white;
+	}
+	
+	</style>
+</head>
+<body>
+<!-- FORM PARA INSERIR LOJA -->
+<form action ="inserir_musica.html" method="POST">
+	<label>Nome: </label><input type="text" name="nome"><br>
+	<label>Autor: </label><input type="text" name="autor"><br>
+	<label>Album: </label><input type="text" name="album"><br>
+	<label>Genero: </label><input type="text" name="genero"><br>
+	<label>Duracao: </label><input type="time" name="duracao"><br>
+	<button type="submit">Inserir</button>
+</form>
+</body>
+</html>
